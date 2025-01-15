@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Talent Scouting System</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Navig.ation Bar -->
+    <div class="scrollmenu">
+        <div class="left-menu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT US</a>
+        </div>
+        <div class="right-menu">
+            <a href="javascript:void(0)" id="authBtn">Login/SignUp</a>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>UNLEASH YOUR POTENTIAL</h1>
+        <p>Get Fit. Get Strong. Get Results.</p>
+        <button class="start-btn" id="startNowBtn">Start Now</button>
+    </header>
+    
+    <!-- Features Section -->
+    <section>
+        <div class="features">
+            <div class="feature">
+                <img src="icon/1232.jpeg" alt="Proven Track Record">
+                <h3>Proven Track Record</h3>
+                <p>We have a history of success in helping our clients achieve their goals.</p>
+            </div>
+            <div class="feature">
+                <img src="icon/123.jpeg" alt="Forward-Thinking Approach">
+                <h3>Forward-Thinking Approach</h3>
+                <p>We are constantly innovating to stay ahead of the curve.</p>
+            </div>
+            <div class="feature">
+                <img src="icon/1233.jpeg" alt="Trusted Partnership">
+                <h3>Trusted Partnership</h3>
+                <p>We believe in building strong, long-term relationships with our clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup for Login/Signup -->
+    <div class="popup" id="authPopup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeAuthPopup">&times;</span>
+            <div class="tabs">
+                <button class="tab-btn active" id="loginTab">Login</button>
+                <button class="tab-btn" id="signupTab">Signup</button>
+            </div>
+            <div class="tab-content active" id="loginContent">
+                <form>
+                    <div class="form-group">
+                        <label for="loginEmail">Email:</label>
+                        <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+            </div>
+            <div class="tab-content" id="signupContent">
+                <form>
+                    <div class="form-group">
+                        <label for="signupName">Name:</label>
+                        <input type="text" id="signupName" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email:</label>
+                        <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password:</label>
+                        <input type="password" id="signupPassword" placeholder="Create a password" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup for Get in Touch -->
+    <div class="popup" id="contactPopup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeContactPopup">&times;</span>
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="contactName">Name:</label>
+                    <input type="text" id="contactName" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email:</label>
+                    <input type="email" id="contactEmail" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message:</label>
+                    <textarea id="contactMessage" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <button id="getInTouchBtn">Get in Touch</button>
+        <h1>Contact Us</h1>
+
+    <div class="contact-info">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>We aim to respond to all messages within 24 hours.</p>
+            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>Visit us at our office during business hours or give us a call.</p>
+            <p>+1-123-456-7890</p>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Office</h3>
+            <p>Follow us on social media for updates and news.</p>
+            <p>123 Main Street, City, Country</p>
+        </div>
+    </div>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span class="logo">© 2024. All Rights Reserved. AI-Powered Talent Scouting System</span>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

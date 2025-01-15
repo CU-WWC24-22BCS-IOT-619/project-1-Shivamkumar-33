@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider | Cosas Learning</title>
+    <!-- CDN Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Importing the CSS file -->
+    <link rel="stylesheet" href="slider.css">     
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <div class="heding"><h1>Different Sports Analysis</h1></div>
+    </header>
+    
+    <div class="hero_section">
+      <div class="cards_box swiper">
+        <div class="cards">
+           <div class="swiper-wrapper">
+              <!-- Card details -->
+ 
+              <!-- Repeat similar sections for other cards -->
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image2.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">BOXING</h3>
+                   <p class="card_description">
+                    A combat sport where two competitors aim to outscore or knock out the opponent within a ring using punches, defense, and footwork.
+                   </p>
+                   <a href="./Boxing/boxing.html" class="card_button">More Detail</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image3.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">BASKETBALL</h3>
+                   <p class="card_description">
+                    A fast-paced indoor game where teams aim to score by shooting a ball through the opponent's hoop, played on a small court.
+                   </p>
+                   <a href="basketball/basketball.html" class="card_button">More Detail</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image4.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">CRICKET</h3>
+                   <p class="card_description">
+                    A bat-and-ball game played on a large oval field, where teams alternate between batting to score runs and bowling/fielding to restrict the opposition.
+                   </p>
+                   <a href="cricket/cricket.html" class="card_button">More Detail</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image5.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">FOOTBALL</h3>
+                   <p class="card_description">
+                    A globally popular sport played on a large field, focusing on scoring goals by maneuvering a ball into the opposing team’s net using primarily the feet.
+
+                   </p>
+                   <a href="football/football.html" class="card_button">More Detail</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image6.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">TENNIS</h3>
+                   <p class="card_description">
+                    A racket sport where players hit a ball over a net to score points by outmaneuvering opponents, played in singles or doubles formats.
+                   </p>
+                   <a href="tenmnis/tennis.html" class="card_button">More Detail</a>
+                </div>
+
+              </section>
+              
+            </div>
+          </div>                            
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>     
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+       </div>        
+    </div>
+  </div>
+  <!-- CDN Swiper JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Importing the JavaScript file -->
+  <script src="slider.js"></script>
+</body>   
+</html>
